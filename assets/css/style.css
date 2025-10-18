@@ -102,7 +102,7 @@ header {
 nav ul {
     display: flex;
     flex-wrap: wrap;
-    gap: .5rem
+    gap: 1rem
 }
 
 nav a {
@@ -165,6 +165,10 @@ nav a:is(:hover, :focus-visible) {
     display: grid;
     place-items: center;
     color: #555
+}
+
+.article-image-placeholder {
+    height: 18rem;
 }
 
 section {
@@ -237,7 +241,8 @@ button:hover {
     color: #fff;
     background: var(--brand);
     padding: .15rem .5rem;
-    border-radius: 999px
+    border-radius: 999px;
+    white-space: nowrap
 }
 
 /* ===== À propos ===== */
