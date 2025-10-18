@@ -167,10 +167,6 @@ nav a:is(:hover, :focus-visible) {
     color: #555
 }
 
-.article-image-placeholder {
-    height: 18rem;
-}
-
 section {
     padding: 3rem 0
 }
