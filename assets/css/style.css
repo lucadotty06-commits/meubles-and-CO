@@ -292,6 +292,13 @@ textarea {
     transition: all .2s ease;
 }
 
+.flex-col {
+    display: flex;
+    flex-direction: column;
+    gap: .3rem;
+}
+
+
 /* ===== FAQ ===== */
 details {
     border: 1px solid #e5e7eb;
